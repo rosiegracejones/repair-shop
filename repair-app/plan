@@ -17,8 +17,14 @@ User should be able to:
 
 Nice to have:
 - Vehicle search function
+- Filter by status
 - Images of vehicles
 
 1. Create database of vehicles
     - array of objects
     - create 4 existing
+    - give each item an ID
+2. Create InfoCard component 
+    - the card will display the vehicle information - create headers
+    - map through vehicleinfo data in App.js
+    - for each object, call InfoCard component and send down object properties as props

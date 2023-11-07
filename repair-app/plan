@@ -1,0 +1,24 @@
+This web app should enable a repair garage to manage the customer vehicles they currently hold, providing a user interface to add vehicles, list vehicles, mark vehicles as repaired and delete vehicles. Vehicles should have the properties ‘Make’, ‘Model’, ‘Registration Number’ and ‘Notes’, all of which should be required except for ‘Notes’.  The frontend for this application should be built in React, and the rest of any tech stack you decide to use is entirely up to you. This task should take around 4 hours to complete.
+
+Database of cars - API, SQL? Start with hard data.
+
+Each object should have:
+- Make
+- Model
+- Registration Number
+- Notes
+- Repair Status
+
+User should be able to:
+- Add vehicles ()
+- Delete vehicles
+- List vehicles
+- Mark as repaired
+
+Nice to have:
+- Vehicle search function
+- Images of vehicles
+
+1. Create database of vehicles
+    - array of objects
+    - create 4 existing

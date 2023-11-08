@@ -20,7 +20,7 @@ Nice to have:
 - Filter by status
 - Images of vehicles
 
-1. Create database of vehicles
+1. Create variable with database of vehicles
     - array of objects
     - create 4 existing
     - give each item an ID
@@ -28,3 +28,12 @@ Nice to have:
     - the card will display the vehicle information - create headers
     - map through vehicleinfo data in App.js
     - for each object, call InfoCard component and send down object properties as props
+3. Add buttons
+    - add edit & delete buttons underneath each card
+    - functions to be added later
+4. Create express server/edit db
+    - change vehicle data into json file
+    - install express package
+    - create vechicle js file for model functions
+    - create server and port variables
+    - create functions for get, patch & delete
